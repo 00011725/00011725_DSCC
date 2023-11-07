@@ -13,7 +13,7 @@ namespace _00011725.Controllers
         { 
             _configuration = configuration;
         }
-        string BaseUrl = "";
+        string BaseUrl = "https://ec2-107-20-103-125.compute-1.amazonaws.com/";
         public async Task<ActionResult> Index()
         {
             
